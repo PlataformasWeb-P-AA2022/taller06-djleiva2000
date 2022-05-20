@@ -22,8 +22,8 @@ session = Session()
 archivo = open("data/data-personas-001.json", "r")
 # archivo = request.get("------------------.json")
 
-datos_json =  json.load(archivo) # paso los datos del archivo a json
-# archivo.json()
+datos_json = json.load(archivo)
+# print(datos_json)
 documentos = datos_json["docs"]
 
 for d in documentos:
